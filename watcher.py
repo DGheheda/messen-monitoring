@@ -12,7 +12,8 @@ class watcher(FileSystemEventHandler):
             _, file_extension = os.path.splitext(event.src_path)
             if file_extension.lower() != '.dfq':
                 pass
-            else
+            else:
+                pass
         
     
     def on_deleted(self, event: FileSystemEvent):#删除文件触发删除事件写入路径到log文件

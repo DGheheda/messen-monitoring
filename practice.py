@@ -1,4 +1,4 @@
-import Istmassnehmern
+import checker
 aa=input('')
-bb=Istmassnehmern.IstMassnehmen(aa)
+bb=checker.IstMassnehmen(aa)
 print(bb)
